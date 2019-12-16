@@ -82,7 +82,7 @@ int LocateElem(SqList L, ElemType e)
 //输出功能函数 按位置从小到大输出顺序表所有元素
 void PrintList(SqList L)
 {
-	printf("当前顺序表所有元素:");
+	printf("Now all numbers : ");
 	for (int i = 0; i<L.length; i++)
 	{
 		printf("%d ", L.data[i]);
